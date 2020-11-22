@@ -16,7 +16,7 @@ static String [] myData;
 		
 		String data[] = {name, mobile, email , age , faculty , department};
 		
-		JOptionPane.showMessageDialog(null, " Your Date is :"  +name +mobile +email +age +faculty +department);
+		JOptionPane.showMessageDialog(null, " Your Data is :" +"\n" +name+"\n " +mobile +"\n "+email +"\n "+age +"\n "+faculty +"\n "+department);
 		JOptionPane.showMessageDialog(null, " Your Name is :"  +name );	
 		JOptionPane.showMessageDialog(null, " Your Mobile is :"  +mobile );	
 		JOptionPane.showMessageDialog(null, " Your Email is :"  +email );	
